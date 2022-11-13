@@ -1,5 +1,11 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#hero {
+    width: 592px;
+    margin: 0 auto;
 }
 
 h1 {
