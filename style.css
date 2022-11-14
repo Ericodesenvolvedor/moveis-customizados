@@ -29,13 +29,30 @@ span, a {
     color: #FF9900;
 }
 
-p {
+p, #footer {
     color: #7D7987;
     font-size: 14px;
     line-height: 28px;
     /* margin-bottom: 2px; */
 }
 
+#footer {
+    margin-bottom: 33px;
+}
+
 #footer a + a {
     margin-left: 28px;
+}
+
+#footer #line {
+    width: 568px;
+    height: 0;
+    margin: 0 auto 8px;
+    border: 1px solid #ECEFF2;
+}
+
+#balls {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
 }
