@@ -1,11 +1,16 @@
 body {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    margin: 0;
 }
 
 #hero {
     width: 592px;
-    margin: 0 auto;
+    margin: 0 auto 72px;
+}
+
+#hero img {
+    margin-bottom: 72px;
 }
 
 h1 {
@@ -13,6 +18,7 @@ h1 {
     font-size: 49px;
     line-height: 56px;
     font-weight: normal;
+    margin-bottom: 32px;
 }
 
 h1 span {
@@ -25,4 +31,11 @@ span, a {
 
 p {
     color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+    /* margin-bottom: 2px; */
+}
+
+#footer a + a {
+    margin-left: 28px;
 }
